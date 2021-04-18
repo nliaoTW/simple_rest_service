@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from simple_rest_api import models
+
+admin.site.register(models.UserProfile)

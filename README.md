@@ -10,7 +10,7 @@ Install Requirements:
 $ vagrant up
 $ vagrant ssh
 $ cd /vagrant
-$ source /env/bin/activate
+$ source ~/env/bin/activate
 $ pip install -r requirements.txt
 ```
 

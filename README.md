@@ -20,5 +20,12 @@ Run application (venv)
 $ python manage.py runserver 0.0.0.0:8000
 ```
 
+Migrating models (venv)
+
+``` bash
+$ python manage.py makemigrations simple_rest_api
+$ python manage.py migrate
+```
+
 
 

@@ -99,7 +99,7 @@ class HelloViewSet(viewsets.ViewSet):
         """Handle removing an object"""
         return Response({'http_method': 'DELETE'})
 
-class SimpleServiceViewSet(viewsets.ModelViewSet):
+class ProfileViewSet(viewsets.ModelViewSet):
     """Handle creating and updating profiles"""
     serializer_class = serializers.SimpleServiceSerializer
     queryset = models.UserProfile.objects.all()

@@ -6,7 +6,7 @@ from simple_rest_api import views
 
 router = DefaultRouter()
 router.register('hello-viewset', views.HelloViewSet, base_name='hello-viewset')
-router.register('simple-service-viewset', views.SimpleServiceViewSet)
+router.register('profile-viewset', views.ProfileViewSet)
 
 urlpatterns = [
     path('hello-view/', views.HelloApiView.as_view()),

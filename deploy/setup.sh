@@ -5,7 +5,7 @@ set -e
 # TODO: Set to URL of git repo.
 PROJECT_GIT_URL='https://github.com/nliaoTW/simple_rest_service.git'
 
-PROJECT_BASE_PATH='/usr/local/apps/simple_rest_service'
+PROJECT_BASE_PATH='/usr/local/apps/profile_project'
 
 echo "Installing dependencies..."
 apt-get update

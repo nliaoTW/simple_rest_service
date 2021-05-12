@@ -2,7 +2,7 @@
 
 set -e
 
-PROJECT_BASE_PATH='/usr/local/apps/simple_rest_service'
+PROJECT_BASE_PATH='/usr/local/apps/profile_project'
 
 git pull
 $PROJECT_BASE_PATH/env/bin/python manage.py migrate

@@ -10,6 +10,7 @@ Install Requirements:
 $ vagrant up
 $ vagrant ssh
 $ cd /vagrant
+$ python -m venv ~/env
 $ source ~/env/bin/activate
 $ pip install -r requirements.txt
 ```
@@ -27,5 +28,10 @@ $ python manage.py makemigrations simple_rest_api
 $ python manage.py migrate
 ```
 
+Integration tests
+
+``` bash
+$ pytest intergration_tests/*.py
+```
 
 

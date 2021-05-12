@@ -8,9 +8,9 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.settings import api_settings
 from rest_framework.permissions import IsAuthenticated
 
-from simple_rest_api import serializers
-from simple_rest_api import models
-from simple_rest_api import permissions
+from profile_api import serializers
+from profile_api import models
+from profile_api import permissions
 
 
 class HelloApiView(APIView):

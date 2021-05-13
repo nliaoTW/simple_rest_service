@@ -15,10 +15,14 @@ $ source ~/env/bin/activate
 $ pip install -r requirements.txt
 ```
 
-Run application (venv)
+Creating Django superuser
 
 ``` bash
-$ python manage.py runserver 0.0.0.0:8000
+$ python manage.py createsuperuser
+$ Email: <email>
+$ Name: <name>
+$ Password: <password>
+$ Password (again): <password>
 ```
 
 Migrating models (venv)
@@ -26,6 +30,12 @@ Migrating models (venv)
 ``` bash
 $ python manage.py makemigrations profile_api
 $ python manage.py migrate
+```
+
+Run application (venv)
+
+``` bash
+$ python manage.py runserver 0.0.0.0:8000
 ```
 
 Integration tests

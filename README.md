@@ -41,7 +41,7 @@ $ python manage.py runserver 0.0.0.0:8000
 Integration tests
 
 ``` bash
-$ pytest intergration_tests/*.py
+$ python -m pytest intergration_tests/*.py
 ```
 
 

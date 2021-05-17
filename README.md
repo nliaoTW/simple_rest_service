@@ -38,6 +38,17 @@ Run application (venv)
 $ python manage.py runserver 0.0.0.0:8000
 ```
 
+Unit tests
+
+``` bash
+$ vagrant up
+$ vagrant ssh
+$ cd /vagrant
+$ source ~/env/bin/activate
+$ python manage.py test
+```
+
+
 Integration tests
 
 ``` bash

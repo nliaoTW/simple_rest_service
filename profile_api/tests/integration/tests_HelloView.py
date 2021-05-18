@@ -1,7 +1,7 @@
 from django.test import TestCase
 from rest_framework.test import APIClient
 
-class HelloApiViewIntegrationTests(TestCase):
+class HelloViewIntegrationTests(TestCase):
 
     def test_get(self):
         self.client = APIClient();
